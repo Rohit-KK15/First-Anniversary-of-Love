@@ -113,13 +113,24 @@
 	height: 50%;
 }
 
+.img_container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+	overflow: hidden;
+}
+
 #img{
 	display: block;
 	left: 0;
 	right: 0;
 	margin: auto;
-	width: auto;
-	height: 100%;
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	object-fit: contain;
+	border-radius: 40px;
 }
 
 #Txt{
